@@ -1,0 +1,16 @@
+{
+    "default": "linux_debug",
+    "linux_debug": {
+        "Defines": [
+            "DEBUG=true"
+        ],
+
+        "Toolchain": {
+            "CC": {
+
+            },
+
+            "CPP": {}
+        }
+    }
+}

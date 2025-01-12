@@ -1,11 +1,9 @@
-__all__ = [
-    'launch'
-]
+__all__ = ['launch']
 
-import os
+from .config.config import Config
 
 def launch():
-    print(os.getcwd())
+    Config.initialize()
 
 if __name__ == '__main__':
     launch()

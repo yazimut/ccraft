@@ -1,0 +1,15 @@
+{
+    "CCraftMRV": "1.0.0a0",
+
+    "ProjectName": "app",
+    "Target": "app",
+    "Defines": [],
+    "Includes": [],
+    "Libraries": [],
+    "Dependencies": [],
+
+    "Bin": "bin",
+    "Include": "include",
+    "Src": "src",
+    "Tmp": "tmp"
+}

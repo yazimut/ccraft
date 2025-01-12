@@ -1,5 +1,7 @@
-from . import *
-
 __all__ = [
-    '__main__'
+    'config'
 ]
+
+from . import config
+
+#__version__ = config.__version__
