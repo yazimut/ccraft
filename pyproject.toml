@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools >= 80.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccraft"
+authors = [
+    { name = "Eugene Azimut", email = "y.azimut@mail.ru" },
+]
+description = "Modern automated build system for C/C++ projects, similar to GNU Make, but simpler and more powerful"
+license = { file = "LICENSE.txt" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+  "ccraft", "C", "C++", "C/C++", "build", "system"
+]
+requires-python = ">= 3.12.3"
+dependencies = []
+dynamic = [ "version" ]
+
+[project.urls]
+Homepage = "https://github.com/yazimut/ccraft"
+#Documentation = "https://github.com/yazimut/ccraft"
+Repository = "https://github.com/yazimut/ccraft"
+Issues = "https://github.com/yazimut/ccraft/issues"
+Changelog = "https://github.com/yazimut/ccraft/blob/master/changelog.txt"
+
+[project.scripts]
+ccraft = "ccraft.__main__:launch"
+
+[tool.setuptools.dynamic]
+version = { attr = "ccraft.__version__" }
